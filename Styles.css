@@ -1,0 +1,21 @@
+html{
+    background-color: #faedce;
+    font-family: "Playfair Display", serif;
+}
+
+
+img{
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 7px 10px #44300131;
+}
+
+.tartalom{
+    border: 2px solid;
+    border-color: #d96f3277;
+    border-radius: 20px;
+    padding: 0px 10px;
+    box-shadow: 5px 10px #df713259;
+    margin-top: 20px;
+    font-size: large;
+}
