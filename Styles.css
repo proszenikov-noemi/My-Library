@@ -4,7 +4,15 @@ html{
 }
 
 
-img{
+.inside{
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 7px 10px #44300131;
+    display: flex;
+    margin-right: 40px;
+}
+
+.list{
     height: 300px;
     border-radius: 5px;
     box-shadow: 7px 10px #44300131;
@@ -18,4 +26,29 @@ img{
     box-shadow: 5px 10px #df713259;
     margin-top: 20px;
     font-size: large;
+    display: flex;
+    margin-right: 20px;
+    flex: 1;
 }
+
+.teljes{
+    display: flex;
+}
+
+ @media (max-width: 600px){
+    .teljes{
+        flex-direction: column;
+    }
+
+
+    .inside{
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 7px 10px #44300131;
+    display: flex;
+    margin: 0 auto;
+    }
+
+
+
+ }
